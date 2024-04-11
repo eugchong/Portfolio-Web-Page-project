@@ -1,0 +1,45 @@
+body{
+  background-color: lightslategray;
+}
+
+h1, h2, h3, p, footer {
+  color: black;
+  text-align: center;
+}  
+h1, h2 {
+  font-family: Arial, serif;
+}
+  
+h3, p, footer {
+  font-family: "Times New Roman", serif;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+p, footer {
+  font-size: 16px;
+}
+hr {
+  height: 3px;
+  background-color: darkgray;
+}
+a:link {color:darkblue;}
+a:visited {color:hotpink;}
+a:hover {color: darkgreen;}
+a:active {color: darkred;}
+
+.styled-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+  padding: 5px;
+}
